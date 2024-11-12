@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScrollViewActivity">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="144dp"
+        android:layout_height="71dp"
+        android:text="Go back"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="558dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The journey of a thousand miles begins with a single step. In our daily lives, we often overlook the importance of small beginnings, yet they are the foundation of every great achievement. Every endeavor, whether simple or complex, requires patience, resilience, and determination. It's in the moments of doubt and uncertainty that we discover the strength within to continue onward, step by step, until we reach our destination."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Innovation is the driving force behind progress in today's world. From the invention of the wheel to the advent of the internet, every breakthrough has transformed human life in profound ways. It pushes boundaries, challenges norms, and opens doors to new possibilities. As technology continues to evolve, the need for creativity, curiosity, and collaboration becomes even more essential. Each new idea has the potential to reshape industries, empower individuals, and inspire future generations."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nature has always been a source of inspiration and tranquility. The gentle rustle of leaves, the vibrant colors of a sunrise, and the soothing sounds of a river remind us of the beauty that surrounds us. Amid the hustle and bustle of modern life, taking a moment to reconnect with nature can provide peace and clarity. It teaches us the value of patience, the interconnectedness of life, and the power of simplicity. Observing nature's resilience and adaptability can inspire us to approach life's challenges with renewed perspective and gratitude."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
